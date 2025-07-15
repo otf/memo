@@ -6,9 +6,10 @@
 memo 電球を買う
 ```
 
-たったこれだけで、指定した内容を Notion
-に新規ページとして保存し、ブラウザで開きます。
-初回起動時には必要な情報を対話形式でセットアップします🛠️
+たったこれだけで、指定した内容を Notion に新規ページとして保存し、ブラウザで開きます。
+
+![output](https://github.com/user-attachments/assets/e8654f4e-0349-4ad5-8761-86cc589d4e45)
+
 
 ---
 
@@ -41,7 +42,7 @@ nix profile add github:otf/memo
 3. 🗂️ **Notion データベース ID** を入力 URL 例:
 
    ```
-   https://www.notion.so/workspace-name/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?v=yyyyy
+   https://www.notion.so/workspace-name/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx（Notion データベース ID）?v=yyyyy
    ```
 
 ✅ 設定内容は `~/.config/memo/config` に保存され、2回目以降は自動で使われます。
